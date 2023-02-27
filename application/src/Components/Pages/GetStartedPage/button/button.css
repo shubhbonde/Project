@@ -1,0 +1,22 @@
+.GettingStarted_btn {
+    background-color: #918FE1; /* Set background color */
+    border: none; /* Remove border */
+    /* border-radius: 100px; */
+    color: FFFFFF; /* Set text color */
+    padding: 10px 20px; /* Set padding */
+    text-align: center; /* Center text */ 
+    font-family:Roboto;
+    font-size: 32px; /* Set font size */
+    cursor: pointer; /* Add cursor on hover */
+    width: 401px;
+    height: 74px;
+    border-radius: 100px;
+}
+
+
+.GettingStarted_btn {
+    position: relative;
+    left: 37%;
+    top: 88%;
+}
+

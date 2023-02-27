@@ -1,0 +1,14 @@
+.gettingStarted_img {
+    background-image: url("../Resource/Group\ 3.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+
+    height: 900px; 
+    
+    /* position: absolute;
+    width: 1400px;
+    height: 820px;
+    position: relative; */
+
+}
