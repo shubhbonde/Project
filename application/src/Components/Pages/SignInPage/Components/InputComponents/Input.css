@@ -1,0 +1,36 @@
+
+#inputemail {
+    width: 525px;
+height: 62px;
+left: 24px;
+top: 344px;
+border-radius: 100px;
+}
+
+#inputemail {
+    position: absolute;
+    left: 52.5%;
+    top: 26%;
+}
+
+
+#inputpassword {
+    width: 525px;
+    height: 62px;
+    left: 24px;
+    top: 344px;
+    border-radius: 100px;
+
+}
+
+#inputpassword {
+    position: absolute;
+    left: 52.5%;
+    top: 42%;
+}
+
+#dont {
+    position: absolute;
+    left: 64.2%;
+    top: 72%;
+}

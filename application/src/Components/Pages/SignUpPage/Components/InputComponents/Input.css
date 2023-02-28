@@ -1,0 +1,52 @@
+#inputName {
+    /* position: absolute; */
+width: 525px;
+height: 62px;
+left: 24px;
+top: 344px;
+border-radius: 100px;
+}
+
+#inputName {
+    position: absolute;
+    left: 33%;
+    top: 30%;
+}
+
+#inputMob {
+    width: 525px;
+height: 62px;
+left: 24px;
+top: 344px;
+border-radius: 100px;
+
+}
+
+#inputMob {
+    position: absolute;
+    left: 33%;
+    top: 45%;
+}
+
+
+#inputEmail {
+
+    width: 525px;
+    height: 62px;
+    left: 24px;
+    top: 344px;
+    border-radius: 100px;
+
+}
+
+#inputEmail {
+    position: absolute;
+    left: 33%;
+    top: 60%;
+}
+
+#already {
+    position: absolute;
+    left: 44%;
+    top: 90%;
+}

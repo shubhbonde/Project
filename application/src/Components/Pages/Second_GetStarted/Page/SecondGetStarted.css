@@ -1,5 +1,6 @@
-.gettingStarted_img {
-    background-image: url("../Resource/Group\ 4.png");
+.secondGetStarted {
+    
+    background-image: url("../../Second_GetStarted/Resource/2nd\ screen.png");
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -10,5 +11,4 @@
     width: 1400px;
     height: 820px;
     position: relative; */
-
 }

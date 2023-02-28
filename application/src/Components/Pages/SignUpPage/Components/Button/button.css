@@ -1,4 +1,4 @@
-.GettingStarted_btn {
+.signUpSubmit_btn {
     background-color: #918FE1; /* Set background color */
     border: none; /* Remove border */
     /* border-radius: 100px; */
@@ -16,9 +16,9 @@
 }
 
 
-.GettingStarted_btn {
-    position: relative;
-    left: 44%;
-    top: 87%;
+.signUpSubmit_btn {
+    position: absolute;
+    left: 45%;
+    top: 80%;
 }
 
