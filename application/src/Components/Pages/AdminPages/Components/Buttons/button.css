@@ -1,0 +1,286 @@
+
+#notice_btn {
+    position: absolute;
+    left: 60%;
+    size: 50%;
+    top: 20%;
+}
+
+#notice_btn{
+    background-color: #2E353A; /* Set background color */
+    border: none; /* Remove border */
+    /* border-radius: 100px; */
+    color: #DEDDF6; /* Set text color */
+    padding: 10px 20px; /* Set padding */
+    text-align: center; /* Center text */ 
+    font-family: Helvetica;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight:bolder;
+    font-size: 22px; /* Set font size */
+    cursor: pointer; /* Add cursor on hover */
+    width: 36%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#resident_data_btn {
+
+    position: absolute;
+    left: 60%;
+    size: 50%;
+    top: 35%;
+
+}
+
+#resident_data_btn {
+
+    background-color: #2E353A; /* Set background color */
+    border: none; /* Remove border */
+    /* border-radius: 100px; */
+    color: #DEDDF6; /* Set text color */
+    padding: 10px 20px; /* Set padding */
+    text-align: center; /* Center text */ 
+    font-family: Helvetica;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight:bolder;
+    font-size: 22px; /* Set font size */
+    cursor: pointer; /* Add cursor on hover */
+    width: 36%;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+
+#guard_data_btn {
+
+    
+    background-color: #2E353A; /* Set background color */
+    border: none; /* Remove border */
+    /* border-radius: 100px; */
+    color: #DEDDF6; /* Set text color */
+    padding: 10px 20px; /* Set padding */
+    text-align: center; /* Center text */ 
+    font-family: Helvetica;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight:bolder;
+    font-size: 22px; /* Set font size */
+    cursor: pointer; /* Add cursor on hover */
+    width: 36%;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+#guard_data_btn {
+    position: absolute;
+    left: 60%;
+    size: 50%;
+    top: 50%;
+}
+
+
+#notice_update_btn {
+     
+    background-color: #918FE1; /* Set background color */
+    border: none; /* Remove border */
+    /* border-radius: 100px; */
+    color: FFFFFF; /* Set text color */
+    padding: 8px 15px; /* Set padding */
+    text-align: center; /* Center text */ 
+    font-family: Helvetica;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight:bolder;
+    font-size: 22px; /* Set font size */
+    cursor: pointer; /* Add cursor on hover */
+    width: 12%;
+    height: 50px;
+    border-radius: 100px;
+
+}
+
+#notice_update_btn{
+    position: absolute;
+    left: 60%;
+    size: 50%;
+    top: 45%;
+
+}
+
+
+
+#resiportal_search_btn{
+    background-color: #918FE1; /* Set background color */
+    border: none; /* Remove border */
+    /* border-radius: 100px; */
+    color: FFFFFF; /* Set text color */
+    padding: 8px 15px; /* Set padding */
+    text-align: center; /* Center text */ 
+    font-family: Helvetica;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight:bolder;
+    font-size: 22px; /* Set font size */
+    cursor: pointer; /* Add cursor on hover */
+    width: 10%;
+    height: 46px;
+    border-radius: 5px;
+}
+#resiportal_search_btn{
+    position: absolute;
+    left: 62%;
+    size: 50%;
+    top: 85%;
+    
+}
+
+
+#resiportal_update_btn{
+    background-color: #918FE1; /* Set background color */
+    border: none; /* Remove border */
+    /* border-radius: 100px; */
+    color: FFFFFF; /* Set text color */
+    padding: 8px 15px; /* Set padding */
+    text-align: center; /* Center text */ 
+    font-family: Helvetica;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight:bolder;
+    font-size: 22px; /* Set font size */
+    cursor: pointer; /* Add cursor on hover */
+    width: 10%;
+    height: 46px;
+    border-radius: 5px;
+
+}
+
+#resiportal_update_btn{
+    position: absolute;
+    left: 74%;
+    size: 50%;
+    top: 85%;
+}
+
+#resiportal_delete_btn{
+    background-color: #918FE1; /* Set background color */
+    border: none; /* Remove border */
+    /* border-radius: 100px; */
+    color: FFFFFF; /* Set text color */
+    padding: 8px 15px; /* Set padding */
+    text-align: center; /* Center text */ 
+    font-family: Helvetica;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight:bolder;
+    font-size: 22px; /* Set font size */
+    cursor: pointer; /* Add cursor on hover */
+    width: 10%;
+    height: 46px;
+    border-radius: 5px;
+}
+
+#resiportal_delete_btn{
+    position: absolute;
+    left: 86%;
+    size: 50%;
+    top: 85%;
+}
+
+#gua_search_btn{
+    background-color: #918FE1; /* Set background color */
+    border: none;
+     /* Remove border */
+    /* border-radius: 100px; */
+    color: FFFFFF; /* Set text color */
+    padding: 8px 15px; /* Set padding */
+    text-align: center; /* Center text */ 
+    font-family: Helvetica;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight:bolder;
+    font-size: 22px; /* Set font size */
+    cursor: pointer; /* Add cursor on hover */
+    width: 10%;
+    height: 46px;
+    border-radius: 10px;
+
+}
+#gua_search_btn{
+    position: absolute;
+    left: 65%;
+    top: 75%;
+
+}
+
+#gua_update_btn {
+    background-color: #918FE1; /* Set background color */
+    border: none;
+     /* Remove border */
+    /* border-radius: 100px; */
+    color: FFFFFF; /* Set text color */
+    padding: 8px 15px; /* Set padding */
+    text-align: center; /* Center text */ 
+    font-family: Helvetica;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight:bolder;
+    font-size: 22px; /* Set font size */
+    cursor: pointer; /* Add cursor on hover */
+    width: 10%;
+    height: 46px;
+    border-radius: 10px;
+}
+
+#gua_update_btn{
+    position: absolute;
+    left: 65%;
+    top: 85%;
+
+}
+
+#gua_save_btn{
+    background-color: #918FE1; /* Set background color */
+    border: none;
+     /* Remove border */
+    /* border-radius: 100px; */
+    color: FFFFFF; /* Set text color */
+    padding: 8px 15px; /* Set padding */
+    text-align: center; /* Center text */ 
+    font-family: Helvetica;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight:bolder;
+    font-size: 22px; /* Set font size */
+    cursor: pointer; /* Add cursor on hover */
+    width: 10%;
+    height: 46px;
+    border-radius: 10px;
+
+}
+#gua_save_btn{
+    position: absolute;
+    left: 80%;
+    top: 75%;
+
+}
+
+#gua_delete_btn{
+    background-color: #918FE1; /* Set background color */
+    border: none;
+     /* Remove border */
+    /* border-radius: 100px; */
+    color: FFFFFF; /* Set text color */
+    padding: 8px 15px; /* Set padding */
+    text-align: center; /* Center text */ 
+    font-family: Helvetica;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight:bolder;
+    font-size: 22px; /* Set font size */
+    cursor: pointer; /* Add cursor on hover */
+    width: 10%;
+    height: 46px;
+    border-radius: 10px;
+
+}
+#gua_delete_btn{
+    position: absolute;
+    left: 80%;
+    top: 85%;
+    
+}
+
+

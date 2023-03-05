@@ -1,0 +1,162 @@
+
+
+#label_flatno {
+    color: #000000;
+    font-weight: bold;
+    width: 200px;
+    font-size: x-large;
+    position: relative;
+    left: 62%;
+    top: 14%;
+
+    
+}
+
+#flatno {
+    position: absolute;
+width: 450px;
+height: 62px;
+left: 62%;
+top: 20%;
+border-radius: 10px;
+font-size: x-large;
+
+}
+
+
+#ownername {
+    position: absolute;
+    width: 450px;
+    height: 62px;
+    left: 62%;
+    top: 38%;
+    border-radius: 10px;
+    font-size: x-large;
+
+}
+
+#label_owner {
+
+    color: #000000;
+    font-weight: bold;
+    width: 200px;
+    font-size: x-large;
+    position: absolute;
+    left: 62%;
+    top: 32%;
+    
+}
+
+#fmember{
+    position: absolute;
+    width: 450px;
+    height: 62px;
+    left: 62%;
+    top: 55%;
+    border-radius: 10px;
+    font-size: x-large;
+
+}
+
+#label_fmember{
+    color: #000000;
+    font-weight: bold;
+    width: 200px;
+    font-size: x-large;
+    position: absolute;
+    left: 62%;
+    top: 49%;
+
+}
+
+
+#phnumber {
+
+    position: absolute;
+    width: 450px;
+    height: 62px;
+    left: 62%;
+    top: 72%;
+    border-radius: 10px;
+    font-size: x-large;
+
+}
+
+#label_phnumber {
+    color: #000000;
+    font-weight: bold;
+    width: 200px;
+    font-size: x-large;
+    position: absolute;
+    left: 62%;
+    top: 66%;
+
+}
+
+#label_gua_id{
+    color: #000000;
+    font-weight: bold;
+    width: 200px;
+    font-size: x-large;
+    position: absolute;
+    left: 62%;
+    top: 14%;
+
+}
+
+#guaID {
+    position: absolute;
+    width: 450px;
+    height: 62px;
+    left: 62%;
+    top: 20%;
+    border-radius: 10px;
+    font-size: x-large;
+
+}
+
+#label_gua_name{
+    color: #000000;
+    font-weight: bold;
+    width: 200px;
+    font-size: x-large;
+    position: absolute;
+    left: 62%;
+    top: 34%;
+
+}
+
+#guaName{
+    position: absolute;
+    width: 450px;
+    height: 62px;
+    left: 62%;
+    top: 40%;
+    border-radius: 10px;
+    font-size: x-large;
+
+}
+
+#label_gua_time{
+    color: #000000;
+    font-weight: bold;
+    width: 200px;
+    font-size: x-large;
+    position: absolute;
+    left: 62%;
+    top: 54%;
+
+}
+
+#guaTime{
+    position: absolute;
+    width: 450px;
+    height: 62px;
+    left: 62%;
+    top: 60%;
+    border-radius: 10px;
+    font-size: x-large;
+
+}
+
+

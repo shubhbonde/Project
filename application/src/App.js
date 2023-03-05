@@ -15,6 +15,11 @@ import AdminSignin from "./Components/Pages/SignInPage/Components/Pages/AdminSig
 import Watchmensignin from "./Components/Pages/SignInPage/Components/Pages/WatchmenSignin"
 import AdminSignup from "./Components/Pages/SignUpPage/Pages/AdminSignup"
 import WatchmenSignup from "./Components/Pages/SignUpPage/Pages/WatchmenSignup"
+import Adminfirstpage from "./Components/Pages/AdminPages/Components/Pages/FirstPage";
+import Noticepage from "./Components/Pages/AdminPages/Components/Pages/NoticePage/Noticepage";
+import Residentportal from "./Components/Pages/AdminPages/Components/Pages/ResidentDataPortalPage/Residentportal";
+import Gaurdportal from "./Components/Pages/AdminPages/Components/Pages/GaurdDataPortal/Gaurdportal";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -51,6 +56,19 @@ function App() {
         <Route path="/secsignup" exact>
           <WatchmenSignup/>
         </Route>
+        <Route path="/adfirstpage" exact>
+          <Adminfirstpage/>
+        </Route>
+        <Route path="/ntpage" exact>
+          <Noticepage/>
+        </Route>
+        <Route path="/resiportal" exact>
+          <Residentportal/>
+        </Route>
+        <Route path="/gauportal" exact>
+          <Gaurdportal/>
+        </Route>
+
 
         <Redirect to="/" />
       </Switch>
