@@ -1,5 +1,5 @@
 
-#inputemail {
+#inputnumber {
     width: 525px;
 height: 62px;
 left: 24px;
@@ -7,7 +7,7 @@ top: 344px;
 border-radius: 100px;
 }
 
-#inputemail {
+#inputnumber {
     position: absolute;
     left: 52.5%;
     top: 26%;

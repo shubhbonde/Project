@@ -1,5 +1,5 @@
-.signUp {
-    background-image: url("../Resources/Wel_user.png");
+.adminSignUp {
+    background-image: url("../Resources/Wel_admin.png");
     background-size: cover;
     background-position:center;
     background-attachment: scroll;

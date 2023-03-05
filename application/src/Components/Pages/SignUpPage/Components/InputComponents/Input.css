@@ -9,7 +9,7 @@ border-radius: 100px;
 
 #inputName {
     position: absolute;
-    left: 33%;
+    left: 52%;
     top: 30%;
 }
 
@@ -24,7 +24,7 @@ border-radius: 100px;
 
 #inputMob {
     position: absolute;
-    left: 33%;
+    left: 52%;
     top: 45%;
 }
 
@@ -41,12 +41,12 @@ border-radius: 100px;
 
 #inputEmail {
     position: absolute;
-    left: 33%;
+    left: 52%;
     top: 60%;
 }
 
 #already {
     position: absolute;
-    left: 44%;
+    left: 63%;
     top: 90%;
 }

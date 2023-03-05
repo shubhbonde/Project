@@ -8,7 +8,7 @@ import './third_GetStarted.css'
 const ThirdGetStarted =()=>{
     return(
             <div className="ThirdGetStarted">
-                <Link to="signup" >
+                <Link to="who" >
                 <Button/>
                 </Link>
 

@@ -5,21 +5,21 @@ import {Link} from 'react-router-dom';
 import Input from '../Components/InputComponents/Input'
 import Button from '../Components/Button/button'
 
-import './SignUp.css'
+import './AdminSignup.css'
 
 
 
-const SignUp =()=>{
+const AdminSignUp =()=>{
     return(
-            <div className="signUp">
+            <div className="adminSignUp">
                <Form>
                 <Input name="Enter Your Name" id="name"/>
                
                 <Button/>
                 </Form>
-                <label id="already"> Already have an account? <a href="/resisignin">Sign In</a></label>
+                <label id="already"> Already have an account? <a href="/adsignin">Sign In</a></label>
             </div>
     )
 }
 
-export default SignUp;
+export default AdminSignUp;

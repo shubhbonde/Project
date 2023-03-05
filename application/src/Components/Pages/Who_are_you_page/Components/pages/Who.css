@@ -1,6 +1,5 @@
-
-.signin {
-    background-image: url("../../Resources/Welback_user.png");
+.who {
+    background-image: url("../../Resources/Who_image.png");
     background-size: cover;
     background-position: center;
     background-attachment: scroll;

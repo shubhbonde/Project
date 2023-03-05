@@ -8,9 +8,9 @@ const InputControls = props => {
     return (
         <>
             <Form.Control
-        type="email"
-        id="inputemail"
-        placeholder="Enter Your Email"
+        type="number"
+        id="inputnumber"
+        placeholder="Enter Your Mobile Number"
       />
 
             <Form.Control
