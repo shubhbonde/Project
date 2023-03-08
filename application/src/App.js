@@ -19,6 +19,8 @@ import Adminfirstpage from "./Components/Pages/AdminPages/Components/Pages/First
 import Noticepage from "./Components/Pages/AdminPages/Components/Pages/NoticePage/Noticepage";
 import Residentportal from "./Components/Pages/AdminPages/Components/Pages/ResidentDataPortalPage/Residentportal";
 import Gaurdportal from "./Components/Pages/AdminPages/Components/Pages/GaurdDataPortal/Gaurdportal";
+import SecurityMainUI from "./Components/Pages/SecurityGuardPages/Pages/SecurityMainUI";
+import ResidentMainUI from "./Components/Pages/ResidentPages/Pages/ResidentMainUI";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -59,14 +61,20 @@ function App() {
         <Route path="/adfirstpage" exact>
           <Adminfirstpage/>
         </Route>
-        <Route path="/ntpage" exact>
+        <Route path="/adfirstpage/ntpage" exact>
           <Noticepage/>
         </Route>
-        <Route path="/resiportal" exact>
+        <Route path="/adfirstpage/resiportal" exact>
           <Residentportal/>
         </Route>
-        <Route path="/gauportal" exact>
+        <Route path="/adfirstpage/gauportal" exact>
           <Gaurdportal/>
+        </Route>
+        <Route path="/secui" exact>
+          <SecurityMainUI/>
+        </Route>
+        <Route path="/resiui" exact>
+          <ResidentMainUI/>
         </Route>
 
 

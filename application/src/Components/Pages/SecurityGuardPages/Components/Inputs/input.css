@@ -1,0 +1,83 @@
+
+#label_secui_resiname{
+    color: #000000;
+    font-weight: bold;
+    width: 250px;
+    font-size: xx-large;
+    position: absolute;
+    left: 55%;
+    top: 8%;
+}
+#secui_resiname{
+    position: absolute;
+    width: 550px;
+    height: 62px;
+    left: 55%;
+    top: 15%;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+
+
+#label_secui_flatno{
+    color: #000000;
+    font-weight: bold;
+    width: 250px;
+    font-size: xx-large;
+    position: absolute;
+    left: 55%;
+    top: 26%;
+
+}
+#secui_flatno{
+    position: absolute;
+    width: 550px;
+    height: 62px;
+    left: 55%;
+    top: 33%;
+    border-radius: 10px;
+    font-size: x-large;
+
+}
+
+
+#label_secui_visiname{
+    color: #000000;
+    font-weight: bold;
+    width: 250px;
+    font-size: xx-large;
+    position: absolute;
+    left: 55%;
+    top: 53%;
+
+}
+#secui_visiname{
+    position: absolute;
+    width: 550px;
+    height: 62px;
+    left: 55%;
+    top: 60%;
+    border-radius: 10px;
+    font-size: x-large;
+
+}
+
+#label_secui_motive{
+    color: #000000;
+    font-weight: bold;
+    width: 250px;
+    font-size: xx-large;
+    position: absolute;
+    left: 55%;
+    top: 70%;
+}
+#secui_motive{
+    position: absolute;
+    width: 550px;
+    height: 62px;
+    left: 55%;
+    top: 77%;
+    border-radius: 10px;
+    font-size: x-large;
+}

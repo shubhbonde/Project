@@ -23,6 +23,7 @@ const Residentportal = props =>{
             <Button value ="SEARCH" id= "resiportal_search_btn"/>
             <Button value ="UPDATE" id= "resiportal_update_btn"/>
             <Button value ="DELETE" id= "resiportal_delete_btn"/>
+            <Button value ="Create" id= "resiportal_create_btn"/>
 
     </div>
 }

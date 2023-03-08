@@ -7,15 +7,15 @@ import './FirstPage.css'
 const Adminfirstpage = () =>{
     return <div className="adminfirstpage">
      
-     <Link to="ntpage">   
+     <Link to="/adfirstpage/ntpage">   
     <Button value="New Notice" id="notice_btn"/>
     </Link>
 
-    <Link to="resiportal">
+    <Link to="/adfirstpage/resiportal">
     <Button value="Resident Data" id="resident_data_btn"/>
     </Link>
 
-    <Link to="gauportal">
+    <Link to="/adfirstpage/gauportal">
     <Button value="Guard Data" id="guard_data_btn"/>
     </Link>
     </div> 

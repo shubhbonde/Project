@@ -1,4 +1,4 @@
-#inputName {
+#signup_user_inputName {
     /* position: absolute; */
 width: 525px;
 height: 62px;
@@ -7,13 +7,13 @@ top: 344px;
 border-radius: 100px;
 }
 
-#inputName {
+#signup_user_inputName  {
     position: absolute;
     left: 52%;
     top: 30%;
 }
 
-#inputMob {
+#signup_user_inputMob {
     width: 525px;
 height: 62px;
 left: 24px;
@@ -22,14 +22,14 @@ border-radius: 100px;
 
 }
 
-#inputMob {
+#signup_user_inputMob {
     position: absolute;
     left: 52%;
     top: 45%;
 }
 
 
-#inputEmail {
+#signup_user_inputEmail {
 
     width: 525px;
     height: 62px;
@@ -39,14 +39,209 @@ border-radius: 100px;
 
 }
 
-#inputEmail {
+#signup_user_inputEmail {
     position: absolute;
     left: 52%;
     top: 60%;
 }
 
+
+#signup_user_input_Society_name {
+    width: 525px;
+height: 62px;
+left: 24px;
+top: 344px;
+border-radius: 100px;
+
+
+}
+#signup_user_input_Society_name{
+    position: absolute;
+    left: 52%;
+    top: 15%;
+
+}
+
+#signup_user_input_password{
+    width: 525px;
+    height: 62px;
+    left: 24px;
+    top: 344px;
+    border-radius: 100px;
+
+}
+#signup_user_input_password{
+    position: absolute;
+    left: 52%;
+    top: 74%;
+}
+
+/* below alll admin signup css */
+
+#signup_admin_inputName {
+    /* position: absolute; */
+width: 525px;
+height: 62px;
+left: 24px;
+top: 344px;
+border-radius: 100px;
+}
+
+#signup_admin_inputName  {
+    position: absolute;
+    left: 52%;
+    top: 30%;
+}
+
+#signup_admin_inputMob {
+    width: 525px;
+height: 62px;
+left: 24px;
+top: 344px;
+border-radius: 100px;
+
+}
+
+#signup_admin_inputMob {
+    position: absolute;
+    left: 52%;
+    top: 45%;
+}
+
+
+#signup_admin_inputEmail {
+
+    width: 525px;
+    height: 62px;
+    left: 24px;
+    top: 344px;
+    border-radius: 100px;
+
+}
+
+#signup_admin_inputEmail {
+    position: absolute;
+    left: 52%;
+    top: 60%;
+}
+
+
+#signup_admin_input_Society_name {
+    width: 525px;
+height: 62px;
+left: 24px;
+top: 344px;
+border-radius: 100px;
+
+
+}
+#signup_admin_input_Society_name{
+    position: absolute;
+    left: 52%;
+    top: 15%;
+
+}
+
+#signup_admin_input_password{
+    width: 525px;
+    height: 62px;
+    left: 24px;
+    top: 344px;
+    border-radius: 100px;
+
+}
+#signup_admin_input_password{
+    position: absolute;
+    left: 52%;
+    top: 74%;
+}
+
+
+/* Below All security gaurd css */
+
+#signup_security_inputName {
+    /* position: absolute; */
+width: 525px;
+height: 62px;
+left: 24px;
+top: 344px;
+border-radius: 100px;
+}
+
+#signup_security_inputName  {
+    position: absolute;
+    left: 52%;
+    top: 30%;
+}
+
+#signup_security_inputMob {
+    width: 525px;
+height: 62px;
+left: 24px;
+top: 344px;
+border-radius: 100px;
+
+}
+
+#signup_security_inputMob {
+    position: absolute;
+    left: 52%;
+    top: 45%;
+}
+
+
+#signup_security_inputEmail {
+
+    width: 525px;
+    height: 62px;
+    left: 24px;
+    top: 344px;
+    border-radius: 100px;
+
+}
+
+#signup_security_inputEmail {
+    position: absolute;
+    left: 52%;
+    top: 60%;
+}
+
+
+#signup_security_input_Society_name {
+    width: 525px;
+height: 62px;
+left: 24px;
+top: 344px;
+border-radius: 100px;
+
+
+}
+#signup_security_input_Society_name{
+    position: absolute;
+    left: 52%;
+    top: 15%;
+
+}
+
+#signup_security_input_password{
+    width: 525px;
+    height: 62px;
+    left: 24px;
+    top: 344px;
+    border-radius: 100px;
+
+}
+#signup_security_input_password{
+    position: absolute;
+    left: 52%;
+    top: 74%;
+}
+
+
+
+
 #already {
     position: absolute;
     left: 63%;
-    top: 90%;
+    top: 95%;
 }

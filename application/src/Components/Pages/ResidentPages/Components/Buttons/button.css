@@ -1,0 +1,22 @@
+
+#resiui_logout_btn{
+    background-color: #918FE1; /* Set background color */
+    border: none; /* Remove border */
+    /* border-radius: 100px; */
+    color: FFFFFF; /* Set text color */
+    padding: 8px 15px; /* Set padding */
+    text-align: center; /* Center text */ 
+    font-family: Helvetica;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight:bolder;
+    font-size: 22px; /* Set font size */
+    cursor: pointer; /* Add cursor on hover */
+    width: 12%;
+    height: 50px;
+    border-radius: 100px;
+}
+#resiui_logout_btn{
+    position: absolute;
+    left: 45%;
+    top: 90%;
+}

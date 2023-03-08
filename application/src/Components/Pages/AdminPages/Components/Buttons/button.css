@@ -53,8 +53,6 @@
 
 
 #guard_data_btn {
-
-    
     background-color: #2E353A; /* Set background color */
     border: none; /* Remove border */
     /* border-radius: 100px; */
@@ -154,7 +152,7 @@
 
 #resiportal_update_btn{
     position: absolute;
-    left: 74%;
+    left: 85%;
     size: 50%;
     top: 85%;
 }
@@ -178,10 +176,47 @@
 
 #resiportal_delete_btn{
     position: absolute;
-    left: 86%;
+    left: 85%;
     size: 50%;
-    top: 85%;
+    top: 95%;
 }
+#resiportal_create_btn{
+    background-color: #918FE1; /* Set background color */
+    border: none; /* Remove border */
+    /* border-radius: 100px; */
+    color: FFFFFF; /* Set text color */
+    padding: 8px 15px; /* Set padding */
+    text-align: center; /* Center text */ 
+    font-family: Helvetica;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight:bolder;
+    font-size: 22px; /* Set font size */
+    cursor: pointer; /* Add cursor on hover */
+    width: 10%;
+    height: 46px;
+    border-radius: 5px;
+
+}
+#resiportal_create_btn{
+    position: absolute;
+    left: 62%;
+    size: 50%;
+    top: 95%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #gua_search_btn{
     background-color: #918FE1; /* Set background color */

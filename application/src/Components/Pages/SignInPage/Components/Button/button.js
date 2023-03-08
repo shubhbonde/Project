@@ -1,10 +1,9 @@
-import react from 'react';
+import React from "react";
 
-import './button.css'
+import './button.css';
 
-const Button = () =>{
-    return  <input type="submit" value="LogIn"  className='signInSubmit_btn'/>
-        
-    
+const Button = props =>{
+    return <input type={props.type} value= {props.value} id={props.id} />
 }
+
 export default Button;

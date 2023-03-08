@@ -1,5 +1,5 @@
 
-#inputnumber {
+#admin_inputnumber {
     width: 525px;
 height: 62px;
 left: 24px;
@@ -7,14 +7,14 @@ top: 344px;
 border-radius: 100px;
 }
 
-#inputnumber {
+#admin_inputnumber {
     position: absolute;
     left: 52.5%;
     top: 26%;
 }
 
 
-#inputpassword {
+#admin_inputpassword {
     width: 525px;
     height: 62px;
     left: 24px;
@@ -23,11 +23,78 @@ border-radius: 100px;
 
 }
 
-#inputpassword {
+#admin_inputpassword {
     position: absolute;
     left: 52.5%;
     top: 42%;
 }
+
+#user_inputnumber{
+    width: 525px;
+    height: 62px;
+    left: 24px;
+    top: 344px;
+    border-radius: 100px;
+
+}
+#user_inputnumber{
+    position: absolute;
+    left: 52.5%;
+    top: 26%;
+
+}
+
+#user_inputpassword{
+    width: 525px;
+    height: 62px;
+    left: 24px;
+    top: 344px;
+    border-radius: 100px;
+
+}
+#user_inputpassword{
+    position: absolute;
+    left: 52.5%;
+    top: 42%;
+
+}
+
+#watchmen_inputnumber{
+    width: 525px;
+    height: 62px;
+    left: 24px;
+    top: 344px;
+    border-radius: 100px;
+
+}
+
+#watchmen_inputnumber{
+    position: absolute;
+    left: 52.5%;
+    top: 26%;
+
+}
+
+#watchmen_inputpassword{
+    width: 525px;
+    height: 62px;
+    left: 24px;
+    top: 344px;
+    border-radius: 100px;
+
+}
+#watchmen_inputpassword{
+    position: absolute;
+    left: 52.5%;
+    top: 42%;
+
+}
+
+
+
+
+
+
 
 #dont {
     position: absolute;

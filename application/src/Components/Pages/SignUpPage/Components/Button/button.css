@@ -1,4 +1,4 @@
-.signUpSubmit_btn {
+#btn_signup_admin {
     background-color: #918FE1; /* Set background color */
     border: none; /* Remove border */
     /* border-radius: 100px; */
@@ -16,9 +16,57 @@
 }
 
 
-.signUpSubmit_btn {
+#btn_signup_admin{
     position: absolute;
     left: 64%;
-    top: 80%;
+    top: 87%;
+}
+
+#btn_signup_user{
+    background-color: #918FE1; /* Set background color */
+    border: none; /* Remove border */
+    /* border-radius: 100px; */
+    color: FFFFFF; /* Set text color */
+    padding: 10px 20px; /* Set padding */
+    text-align: center; /* Center text */ 
+    font-family: Helvetica;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight:bolder;
+    font-size: 22px; /* Set font size */
+    cursor: pointer; /* Add cursor on hover */
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+
+}
+#btn_signup_user{
+    position: absolute;
+    left: 64%;
+    top: 87%;
+
+}
+#btn_signup_security{
+    background-color: #918FE1; /* Set background color */
+    border: none; /* Remove border */
+    /* border-radius: 100px; */
+    color: FFFFFF; /* Set text color */
+    padding: 10px 20px; /* Set padding */
+    text-align: center; /* Center text */ 
+    font-family: Helvetica;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight:bolder;
+    font-size: 22px; /* Set font size */
+    cursor: pointer; /* Add cursor on hover */
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+
+
+}
+#btn_signup_security{
+    position: absolute;
+    left: 64%;
+    top: 87%;
+
 }
 
