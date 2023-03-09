@@ -1,47 +1,66 @@
 const HttpError = require('../models/http-error')
-const { validationResult } = require('express-validator')
+const {validationResult} = require('express-validator')
+
+const Admin = require('../models/admin')
 
 
-let = DummyAdmin = [{
-        name: 'gaja',
-        socityname: 'lotus',
-       phoneno: 626374682,
-        email: 'gaja@gamil.com',
-        password: 'gajabc'
-    }]
 
-
-const signup = (req, res, next) => { const error = validationResult(req) ;
-    if(!error.isEmpty()){
-        throw new HttpError('invalid input passed check your data',422)
-    }
-
+const signup = async (req, res, next) => {
+    const error = validationResult(req);
     const {
         name,
         socityname,
-       phoneno,
+        phoneno,
         email,
         password
     } = req.body;
-    const newAdmin = {
-        name,
-        socityname,
-       phoneno,
-        email,
-        password
+    let existingAdmin;
+    try {
+        existingAdmin = await Admin.findOne({phoneno: phoneno})
+    } catch (err) {
+        const error = new HttpError('signup failed , try again', 500);
+        return next(error);
     }
-    DummyAdmin.push(newAdmin);
-    res.status(201).json({Admin:newAdmin});
+    if (existingAdmin) {
+        const error = new HttpError('phone number already registered', 422);
+        return next(error);
+    }
+
+    const newAdmin = new Admin({
+        name: name,
+        socityname: socityname,
+        phoneno: phoneno,
+        email: email,
+        password: password
+    })
+    
+    try {
+        await newAdmin.save();;
+    } catch (err) {
+        const error = new HttpError('Signup  failed ', 500)
+        return next(error)
+    }
+
+    res.status(201).json({Admin: newAdmin});
 };
-const login = (req, res, next) => {
-     const {mobileno,password} = req.body;
+const login = async (req, res, next) => {
+    const {phoneno, password} = req.body;
+    let identifiedAdmin ;
+    try {
+        identifiedAdmin = await Admin.findOne({phoneno: phoneno})
+    } catch (err) {
+        const error = new HttpError('login failed , try again', 500);
+        return next(error);
+    }
 
-     const identifiedAdmin = DummyAdmin.find(a=>a.mobileno ==mobileno)
+    if (! identifiedAdmin) {
+        return next(new HttpError('Wrong phone number ', 401));
+    }
+    else if( identifiedAdmin.password != password){
+        return next(new HttpError('Wrong password ', 401));
+    }
 
-     if(!identifiedAdmin ||identifiedAdmin.password != password ){
-        throw new HttpError('Wrong credentials ',401);         
-     }
-     res.json({Message :'logged in'})
+    res.json({Message: 'logged in'})
 
 };
 

@@ -4,7 +4,6 @@ const router = express.Router();
 
 const adminController = require('../../controllers/admin-controller')
 
-
 router.post('/signup', [
     check('name').not().isEmpty(),
     check('socityname').not().isEmpty(),
