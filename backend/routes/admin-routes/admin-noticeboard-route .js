@@ -3,7 +3,10 @@ const router = express.Router();
 
 const noticeBoardController = require('../../controllers/admin-noticeboard-controller')
 
-router.get('/notice',noticeBoardController.getNotice );
+router.get('/',noticeBoardController.getNotice );
 
+router.post('/',noticeBoardController.newNotice );
+
+// router.patch('/notice',noticeBoardController.updateNotice );
 
 module.exports = router;

@@ -1,60 +1,91 @@
 const HttpError = require('../models/http-error')
 const { validationResult } = require('express-validator')
 
-
+const Guard =  require('../models/guard')
 const DUMMY = [{
         guardid: 101,
         name: "omkar",
         dutytime: 4
     },]
-const getGuardById = (req, res, next) => {
-    const guardId = req.params.guardid;
-    const guard = DUMMY.find(g => {
-        return g.guardid == guardId;
-    })
+const getGuardById =  async (req, res, next) => {
+    const guardid = req.params.guardid;
+    let guard ;
+     
+    try {
+        guard = await Guard.findOne({guardid:guardid})
+    } catch (err) {
+        const error = new HttpError('something went wrong ,could not find Guard', 500)
+        return next(error)
+    }
 
     if (! guard) {
         return next(new HttpError('Guard not found', 404))
     }
     res.json({guard});
-}
+};
 
-const createGuard = (req, res, next) => {
+
+
+const createGuard = async(req, res, next) => {
     const error = validationResult(req) ;
     if(!error.isEmpty()){
         throw new HttpError('invalid input passed check your data',422)
     }
     const {guardid, name, dutytime} = req.body;
-    const newGuard = {
-        guardid,
-        name,
-        dutytime
-    };
-    DUMMY.push(newGuard);
+    
+    
+    
+    let newGuard = new Guard({guardid, name, dutytime});
+
+    try {
+        await newGuard.save();;
+    } catch (err) {
+        const error = new HttpError('creating Guard failed ', 500)
+        return next(error)
+    }
+
+
     res.status(200).json({newGuard: newGuard})
 }
 
 
-const updateGuard = (req,res,next) =>{
+const updateGuard = async(req,res,next) =>{
     const error = validationResult(req) ;
     if(!error.isEmpty()){
         throw new HttpError('invalid input passed check your data',422)
     }
+    const guardid = req.params.guardid
     const {name , dutytime} = req.body;
-    const updateGuard =   {...DUMMY.find(g =>g.guardid==guardid)};
-    const index = DUMMY.findIndex(g =>g.guardid==guardid);
+    let updateGuard ;
+    try {
+        updateGuard = await Guard.findOne({guardid:guardid})
+    } catch (err) {
+        const error = new HttpError('something went wrong , could not update Guard 1', 500)
+        return next(error)
+    }
     updateGuard.name = name ;
     updateGuard.dutytime = dutytime ;
-    DUMMY[index] = updateGuard ;
+    
+    try {
+        updateGuard = await updateGuard.save()
+    } catch (err) {
+        const error = new HttpError('something went wrong , could not update Guard 2', 500)
+        return next(error)
+    }
+
+
     res.status(200).json({message:'guard updated'})
 }
 
-const deleteGuard = (req,res,next) =>{
+const deleteGuard = async(req,res,next) =>{
      const guardid = req.params.guardid ;
-     if(!DUMMY.find(g=>g.guardid!=guardid)){
-        throw new HttpError('could not find guard for this id',404)
+     try {
+        deleteRes = await Guard.findOneAndDelete({guardid: guardid});
+    } catch (err) {
+        const error = new HttpError('something went wrong , could not delete resident ', 500);
+        return next(error);
     }
-     DUMMY =DUMMY.filter(g=>g.guardid!=guardid);
+
      res.status(200).json({message: 'guard deleted'})
 }
 

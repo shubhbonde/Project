@@ -46,19 +46,19 @@ function App() {
         <Route path="/who" exact>
           <Who/>
         </Route>
-        <Route path="/adsignin" exact>
+        <Route path="/who/adsignin" exact>
           <AdminSignin/>
         </Route>
         <Route path="/secsignin" exact>
           <Watchmensignin/>
         </Route>
-        <Route path="/adsignup" exact>
+        <Route path="/who/adsignup" exact>
           <AdminSignup/>
         </Route>
         <Route path="/secsignup" exact>
           <WatchmenSignup/>
         </Route>
-        <Route path="/adfirstpage" exact>
+        <Route path="/who/adfirstpage" exact>
           <Adminfirstpage/>
         </Route>
         <Route path="/adfirstpage/ntpage" exact>

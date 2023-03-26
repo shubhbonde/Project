@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-const adminSchema = new Schema({
+const residentLogSchema = new Schema({
     name: {
         type: String,
         required: true
@@ -22,8 +22,7 @@ const adminSchema = new Schema({
     password: {
         type: String,
         required: true,
-        // minlenght: 5
     }
 });
 
-module.exports = mongoose.model('Admin', adminSchema)
+module.exports = mongoose.model('ResidentLog',residentLogSchema)

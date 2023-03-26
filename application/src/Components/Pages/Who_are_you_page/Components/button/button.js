@@ -7,7 +7,7 @@ import './button.css'
 const Button = () =>{
     return (
      <>  
-     <Link to='adsignin'> 
+     <Link to='who/adsignin'> 
     <input type="button" value="Admin"  className='admin_btn'/>
     </Link>
     <Link to= 'secsignin'>

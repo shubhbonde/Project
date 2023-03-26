@@ -7,13 +7,7 @@ const router = express.Router();
 
 router.get('/:flatno', residentcontrollers.getResidentByFlatNo)
 
-router.post('/', [
-    check('flatno').not().isEmpty(), check('name').isLength(
-        {min: 5, max: 64}
-    ),
-    check('fammembers').isNumeric().not().isEmpty(),
-    check('phone').isNumeric().not().isEmpty()
-], residentcontrollers.createResident)
+router.post('/', residentcontrollers.createResident)
 
 router.patch('/:flatno', [
     check('name').isLength(

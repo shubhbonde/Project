@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-
+import { useHistory} from 'react-router-dom';
 import axios from "axios";
 import {Form} from 'react-bootstrap'
 import Input from '../InputComponents/input '
@@ -7,13 +7,13 @@ import Button from '../Button/button'
 import './WatchmenSignin.css'
 
 const WatchSignIn =() =>{
-
-    const[number,setNumber] = useState('')
+    const history =useHistory();
+    const[phoneno,setPhoneno] = useState('')
     const[password,setPassword] = useState('')
 
     const numberHandler = event =>{
       
-       setNumber(event.target.value)
+        setPhoneno(event.target.value)
     }
     const passHandler=event =>{
         setPassword(event.target.value)
@@ -22,19 +22,31 @@ const WatchSignIn =() =>{
         event.preventDefault()
         try {
 
-           const resp= await axios.post('http://localhost:3000/adsignin',{
-               number: number,password: password
+           const resp= await axios.post('http://localhost:3000/who/secsignin',{
+            phoneno,password
             });
-           
+            console.log(resp.data)
+            console.log(resp.status)
+
+            if(resp.data.code === 500)
+            {
+               alert("User Not Found")
+            }
+            if(resp.data.code === 404)
+            {
+               alert("Credentials  are Wrong  ")
+            }
+            if(resp.data.code === 200)
+            {
+               history.push("/secui");
+            }
             
         } catch (error) {
-            console.log("maybe problem in url ")
+            console.log("maybe problem in admin signin  page data")
             
             
         }
-       console.log("number="+number)
-       console.log("password="+password)
-
+     
     }
 
     return (

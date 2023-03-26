@@ -8,12 +8,7 @@ const router = express.Router();
 
 router.get('/:guardid', guardController.getGuardById)
 
-router.post('/', [
-    check('guardid').not().isEmpty(), check('name').isLength(
-        {min: 5, max: 64}
-    ),
-    check('dutytime').not().isEmpty(),
-], guardController.createGuard)
+router.post('/', guardController.createGuard)
 
 router.patch('/:guardid', [
     check('name').isLength(
